@@ -51,6 +51,7 @@ function preload() {
 // **************************
 
 function setup() {
+  console.log(windowWidth, windowHeight);
   createCanvas(windowWidth, windowHeight);
   noLoop();
   pixelDensity(3.0);
